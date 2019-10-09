@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 75px;
+    background-color: red;
+    position: relative;
+}
+
+.containerForMySite {
+    width: 95%;
+    height: 100%;
+    background: white;
+    margin: 0 auto;
+}
+
+.body {
+    background: white;
+    min-height: 500px;
+}
+
+.sidebar {
+    width: 100%;
+    height: 60px;
+    border-bottom: 4px solid red;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image: url("/resources/image/1624193.jpg");*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divAboveHeader {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.li {
+    display: inline;
+}
+
+footer {
+    color: white;
+    background-color: red;
+}
+
+.gerb {
+    position: absolute;
+    top: -40px;
+    left: 25px;
+}
+/*FOR MENU*/
+.menu {
+    width: 70%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+}
+
+.menu li {
+    z-index: 100;
+    height: auto;
+    width: 150px;
+    text-align: center;
+    list-style: none;
+    font: 12px "Bonveno", "Century Gothic";
+    padding: 0;
+    margin: 0;
+    background-color: #800000;
+    border: 1px solid #990000;
+    margin-left: 10px;
+    line-height: 47px;
+    border-radius: 30px;
+}
+
+.menu a {
+    padding: 13px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.menu li ul {
+    display: none;
+    height: auto;
+    margin-left: -11px;
+    padding: 0;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+/*END FOR MENU*/
+.containerForSoc {
+    text-align: right;
+    height: 100%;
+}
+
+.fab {
+    color: red;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: 17px;
+}
+
+.textForLogin {
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    background-color: #990000;
+}
+
+.loginForm {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: red;
+    height: 500px;
+}
+
+.textForRegistry {
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    background-color: #990000;
+}
+
+.registryForm {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    height: 500px;
+}
+
+.containerForUser {
+    text-align: right;
+    width: 20%;
+    height: 50px;
+    margin-left: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.userProfileImage {
+    width: 50%;
+}
+
+.userProfileInfo {
+    width: 50%;
+}
+
+.myTable {
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.tableTR {
+    border: 2px solid red;
+}
+
+.tableTH {
+    border: 1px solid black;
+}
+
+.containerForResult {
+    margin: 0 auto;
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.resultTeam {
+    width: 35%;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.5);
+    transform: skewX(-35deg);
+    font-size: 30px;
+}
+
+.resultGerb {
+    width: 8%;
+    height: 100%;
+}
+
+.resultScore {
+    width: 3%;
+    height: 40px;
+    font-size: 30px;
+}
+
+.resultTeamText {
+    transform: skewX(35deg);
+}
+
+.myContainerForPlayer {
+    margin-top: 10px;
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
+.playerNumber {
+    width: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+.infoPlayer:hover{
+    transition: 0.5s;
+    background-color:red;
+    color: white;
+}
+.update{
+    border: 1px solid red;
+    border-top: 0px;
+}
+.containerForCommodity{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+.filterCommodity{
+    width: 20%;
+    min-height: 700px;
+    background-color: red;
+}
+.commodityShow{
+    width: 80%;
+    min-height: 700px;
+
+
+}
+.formCommodity{
+    width: 20%;
+    margin: 0 auto;
+    text-align: left;
+}
+.commodity{
+    width:30%;
+    height: 275px;
+    border: 1px solid red;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left:25px;
+}
+.commodity:hover{
+    color: #ff0000;
+}
+.commodityInfo{
+    width: 100%;
+}
+.containerForFilter{
+    width: 1000px;
+    margin-left:3px;
+    position: sticky;
+    top :0;
+}
+
+
+
+/*mycss*/
